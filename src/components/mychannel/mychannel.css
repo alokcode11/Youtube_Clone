@@ -1,0 +1,164 @@
+.my-channel-container {
+  height: 100vh;
+  position: relative;
+  top: 10vh;
+  left: 15vw;
+}
+body {
+  overflow-x: hidden;
+}
+.my-channel-name {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.my-channel-name1 p {
+  background-color: purple;
+  color: white;
+  height: 22.5vh;
+  width: 11vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 7rem;
+  border-radius: 50%;
+  margin-left: 2vw;
+  margin-top: 5vh;
+}
+.my-channel-name2 {
+  padding-left: 3vw;
+  margin-top: -19vh;
+}
+.my-channel-name2 h1 {
+  font-size: 3.5rem;
+}
+.my-channel-name2 span:nth-of-type(2),
+.my-channel-name2 span:nth-of-type(3) {
+  color: grey;
+}
+.my-channel-name2 span:nth-of-type(1) {
+  font-weight: 700;
+}
+.channel-info {
+  margin-top: -4vh;
+}
+.my-channel-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+.my-channel-buttons button {
+  border: none;
+  background-color: rgb(128, 128, 128, 0.3);
+  border-radius: 2rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(0, 0, 0, 0.8);
+  &:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+}
+.my-channel-category {
+  padding-left: 5vw;
+  display: flex;
+  gap: 2.5vw;
+  font-weight: 600;
+  margin-top: -10vh;
+}
+.my-channel-container hr {
+  width: 100vw;
+  margin-top: 1vh;
+}
+.my-channel-category span {
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+  &:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+}
+.for-you {
+  margin-left: 1vw;
+}
+.my-channel-video {
+  width: max-content;
+  height: 17vh;
+}
+.my-channel-video img {
+  width: 15vw;
+  height: 18vh;
+  &:hover {
+    cursor: pointer;
+    border-radius: 0.5rem;
+  }
+}
+.my-channel-video-title {
+  width: 15vw;
+  height: 10vh;
+}
+.my-channel-video-title h2 {
+  font-size: 1rem;
+}
+.my-channel-video-views {
+  width: 13vw;
+  display: flex;
+  gap: 0.5vw;
+}
+.my-channel-video-views span {
+  color: grey;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.my-channel-video-card {
+  margin: 10px;
+  width: 15vw;
+}
+.my-channel-video-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 88vw;
+}
+.delete-button {
+  border: 1px solid black;
+  padding: 0.3rem;
+  font-weight: 600;
+
+  position: relative;
+  top: -3vh;
+  left: 77%;
+  z-index: 2;
+  &:hover {
+    border-radius: 0.3rem;
+    cursor: pointer;
+  }
+}
+.no-channel-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30vh;
+  flex-direction: column;
+}
+.no-channel-message h2 {
+  background-color: rgb(128, 128, 128, 0.2);
+  padding: 2rem;
+  width: 20vw;
+  text-align: center;
+  font-weight: 600;
+  border: 2px solid black;
+}
+.no-channel-message a {
+  text-decoration: underline;
+  color: blue;
+  font-size: 1.1rem;
+  margin-top: -2vh;
+  &:hover {
+    color: red;
+    cursor: pointer;
+  }
+}

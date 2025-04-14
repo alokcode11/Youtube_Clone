@@ -1,0 +1,39 @@
+body {
+  font-family: "Roboto", serif;
+}
+.before-login {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+.before-login-container {
+  border: 2px solid rgb(0, 0, 0, 0.5);
+  width: 33vw;
+  text-align: center;
+  border-radius: 0.5rem;
+  background-color: rgb(128, 128, 128, 0.1);
+}
+.before-login-container p {
+  font-weight: 500;
+  color: rgb(0, 0, 0, 0.7);
+}
+@media (max-width: 1000px) {
+  .before-login-container {
+    width: 60vw;
+  }
+}
+
+@media (max-width: 700px) {
+  .before-login-container {
+    width: 70vw;
+    margin-left: 20vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .before-login-container {
+    width: 75vw;
+    margin-left: 3vw;
+    margin-top: 10vh;
+  }
+}

@@ -1,0 +1,56 @@
+.create-channel {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: rgb(135, 206, 235, 0.4);
+}
+.create-channel-container {
+  background-color: white;
+  box-shadow: 0 0 3px 3px rgb(128, 128, 128, 0.2);
+  border-radius: 1rem;
+  height: 70vh;
+  width: 50vw;
+}
+.create-channel-container h2 {
+  padding-left: 2vw;
+}
+.image-preview {
+  display: flex;
+  justify-content: center;
+}
+.image-upload-section input {
+  margin-left: 38%;
+  margin-top: 2vh;
+}
+.image-upload-section {
+  margin-bottom: 6vh;
+}
+.input-field {
+  display: block;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 3vh;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid grey;
+}
+.button-section {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1vw;
+  padding-right: 2vw;
+}
+.create-btn,
+.cancel-btn {
+  background: none;
+  border: none;
+  color: rgb(40, 40, 248);
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 9vh;
+  &:hover {
+    cursor: pointer;
+    color: black;
+  }
+}

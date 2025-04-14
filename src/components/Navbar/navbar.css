@@ -1,0 +1,42 @@
+.navbar-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8vh;
+  position: fixed;
+  left: 31vh;
+  background-color: white;
+  z-index: 2;
+}
+.navbar {
+  display: flex;
+  margin: 5px;
+  gap: 0.8vw;
+  margin-right: 5vw;
+}
+.navbar a {
+  text-decoration: none;
+  margin: 0.5rem;
+  background-color: rgb(128, 128, 128, 0.2);
+  color: black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}
+@media (max-width: 1000px) {
+  .navbar-container {
+    left: 15vw;
+  }
+  .navbar-container a {
+    font-size: 0.7rem;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .navbar-container {
+    left: 15vw;
+    display: none;
+  }
+}
