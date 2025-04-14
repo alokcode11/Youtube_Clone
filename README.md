@@ -1,8 +1,8 @@
 # YouTube Clone
 
-# Github Repository Link
+# Github Repository Link - https://github.com/alokcode11/Youtube_Clone
 
-# Vercel Deployed Link
+# Vercel Deployed Link - https://youtube-clone-woad-nu.vercel.app/
 
 ---
 
